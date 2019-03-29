@@ -15,6 +15,11 @@ $app = new Illuminate\Foundation\Application(
     realpath(__DIR__.'/../')
 );
 
+// contoh
+$app2 = new Illuminate\Foundation\Application(
+    realpath(__DIR__.'/../')
+);
+
 /*
 |--------------------------------------------------------------------------
 | Bind Important Interfaces
