@@ -1,11 +1,5 @@
-1
-2
-3
-4
-5
-6
-7
-8
 @extends('master')
 @section('content')
+    <h1>Giflow class</h1>
+    <p>With mas Kresna</p>
 @endsection
