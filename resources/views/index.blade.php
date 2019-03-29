@@ -1,5 +1,7 @@
 @extends('master')
+@section('test')
 @section('content')
+@section('testing')
 @endsection
 a
 a
