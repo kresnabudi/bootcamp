@@ -4,3 +4,6 @@
 @section('footer')
 coba lg deh
 @endsection
+
+@section('struct')
+@endsection
