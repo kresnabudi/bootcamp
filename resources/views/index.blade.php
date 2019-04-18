@@ -27,3 +27,8 @@ a
 		</div>
 	</div>
 </div>
+
+
+@section('struct')
+@endsection
+
