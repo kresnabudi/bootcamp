@@ -2,12 +2,5 @@
 @yield('test')
 @extends('body')
 @section('footer')
-a
-a
-a
-a
-a
-a
-a
-a
+coba lg deh
 @endsection
