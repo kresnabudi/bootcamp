@@ -1,5 +1,4 @@
 @extends('head')
-@yield('test')
 @extends('body')
 @section('footer')
 coba lg deh
@@ -12,4 +11,10 @@ a
 a
 a
 a
+a
+t
+t
+g
+y
+y
 a
