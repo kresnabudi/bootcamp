@@ -1,5 +1,6 @@
-@extends('master')
-@section('test')
+@extends('head')
+@yield('test')
+@extends('body')
 @section('content')
     <h1>Sample Page</h1>
     <p>
@@ -42,13 +43,7 @@
             <div>{{$item['content']}}</div>
         </div>
     @endforeach
-@section('testing')
 @endsection
-a
-a
-a
-a
-a
-a
-a
-a
+@section('footer')
+    coba lg deh
+@endsection
