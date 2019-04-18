@@ -3,6 +3,7 @@
 @section('footer')
 coba lg deh
 @endsection
+<<<<<<< HEAD
 <div>
 	<div>
 		<div>
@@ -12,3 +13,8 @@ coba lg deh
 		</div>
 	</div>
 </div>
+=======
+
+@section('struct')
+@endsection
+>>>>>>> AT-01
