@@ -8,8 +8,13 @@
                 <li>Error 3</li>
             </ul>
         </div>
+<<<<<<< HEAD
         <form action="/login">
              {{ csrf_field() }}
+=======
+        <form action="/login" method="POST">
+            {{ csrf_field() }}
+>>>>>>> ab
             <input type="email" name="email" placeholder="Email">
             <input type="password" name="password" placeholder="Password">
             <input type="submit" value="Login">
