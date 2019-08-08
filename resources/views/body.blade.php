@@ -55,8 +55,8 @@
   <div class="card">
       <h4 class="text">Welcome To</h4>
       <h1 class="text">Ralali Internship Git Flow Session</h1>
-      <button>login</button>
-      <button>register</button>
+      <button onclick="window.location.href='/login'">login</button>
+      <button onclick="window.location.href='/register'">register</button>
   </div>
   @yield('content')
 </body>
