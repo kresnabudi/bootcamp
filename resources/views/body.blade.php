@@ -17,7 +17,7 @@
 
 <body>
   <header class="site-header" style="background-color:orangeRed;color:white;padding:20px;">
-    <h2>Simplify your links</h2>
+    <h2>Simplify your links!</h2>
     <form class="search-bar">
       <input type="url" name="originalURL" placeholder="Your original URL here">
       <button type="submit">SHORTEN URL</button>
