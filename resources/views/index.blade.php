@@ -15,11 +15,4 @@ ini adalah coba
 @extends('head')
 @extends('body')
 @section('footer')
-coba lg deh
-t
-t
-g
-y
-y
-a
 @endsection
