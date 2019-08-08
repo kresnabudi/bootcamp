@@ -8,7 +8,7 @@
                 <li>Error 3</li>
             </ul>
         </div>
-        <form action="/login">
+        <form action="/login" method="POST">
             <input type="email" name="email" placeholder="Email">
             <input type="password" name="password" placeholder="Password">
             <input type="submit" value="Login">

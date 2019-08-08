@@ -17,7 +17,7 @@
                 <li>Error 3</li>
             </ul>
         </div>
-        <form class="register" action="/register" method="post">
+        <form class="register" action="/register" method="POST">
             {{ csrf_field() }}
             <input class="email" type="email" name="email" placeholder="Email">
             <input class="username" type="text" name="username" placeholder="Username">
