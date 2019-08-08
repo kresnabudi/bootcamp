@@ -1,4 +1,8 @@
-
+@extends('head')
+@extends('body')
+@section('footer')
+coba lg deh
+t
 ini adalah coba
 {{-- <!DOCTYPE html>
 <html>
@@ -16,4 +20,9 @@ ini adalah coba
 @extends('body')
 @section('footer')
 coba lg deh
+t
+g
+y
+y
+a
 @endsection
