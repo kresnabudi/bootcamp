@@ -64,23 +64,20 @@
 </head>
 
 <body>
-<<<<<<< HEAD
   <header class="site-header" style="background-color:orangeRed;color:white;padding:20px;">
     <h2>Simplify your links!</h2>
     <form class="search-bar">
       <input type="url" name="originalURL" placeholder="Your original URL here">
-      <button type="submit">SHORTEN URL</button>
+      <button type="submit" >SHORTEN URL</button>
     </form>
   </header>
 
-=======
   <div class="card">
       <h4 class="text">Welcome To</h4>
       <h1 class="text">Ralali Internship Git Flow Session</h1>
       <button onclick="window.location.href='/login'">login</button>
       <button>register</button>       <button onclick="window.location.href='/register'">register</button>
   </div>
->>>>>>> 876419e18393b47aaafef3a1dc67b4dee2fd70a3
   @yield('content')
 </body>
 </html>
