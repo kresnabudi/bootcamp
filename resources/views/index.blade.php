@@ -1,4 +1,8 @@
-
+@extends('head')
+@extends('body')
+@section('footer')
+coba lg deh
+t
 ini adalah coba
 {{-- <!DOCTYPE html>
 <html>
@@ -12,7 +16,9 @@ ini adalah coba
 
 </body>
 </html> --}}
-@extends('head')
-@extends('body')
-@section('footer')
+t
+g
+y
+y
+a
 @endsection
