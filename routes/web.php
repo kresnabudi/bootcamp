@@ -13,3 +13,6 @@
 
 
 Route::get('/','DataController@index')->name('data.all');
+Route::get('/profile', function() {
+    return view('profile');
+});
