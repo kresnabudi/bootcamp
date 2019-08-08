@@ -9,6 +9,7 @@
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:500&display=swap" rel="stylesheet">
 
   <!-- Styles -->
   <link rel="stylesheet" href="{{ asset('css/app.css') }}">
@@ -21,11 +22,11 @@
       max-width: 300px;
       margin: 0 auto;
       text-align: center;
-      font-family: arial;
     }
     
     .text {
       color: white;
+      font-family: Raleway;
     }
 
     button:hover, a:hover {
@@ -45,6 +46,7 @@
       cursor: pointer;
       width: 100%;
       font-size: 18px;
+      font-family: Ubuntu;
     }
   </style>
 </head>
@@ -52,9 +54,9 @@
 <body>
   <div class="card">
       <h4 class="text">Welcome To</h4>
-      <h1 class="text">Ralali Intership Git Flow Session</h1>
-      <button>Login</button>
-      <button>Register</button>
+      <h1 class="text">Ralali Internship Git Flow Session</h1>
+      <button>login</button>
+      <button>register</button>
   </div>
   @yield('content')
 </body>
