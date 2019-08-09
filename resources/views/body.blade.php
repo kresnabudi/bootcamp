@@ -18,6 +18,7 @@
 <body>
   <header class="site-header">
     <h1>Ralali Bootcamp</h1>
+    <p>Selamat datang di Ralali Bootcamp, silakan cari sesuatu pada form di bawah ini.</p>
     <form class="search-bar">
       <input type="text" name="keyword">
       <button type="submit">Cari</button>
