@@ -64,12 +64,15 @@
 </head>
 
 <body>
-  <div class="card">
-      <h4 class="text">Welcome To</h4>
-      <h1 class="text">Ralali Internship Git Flow Session</h1>
-      <button onclick="window.location.href='/login'">login</button>
-      <button>register</button>       <button onclick="window.location.href='/register'">register</button>
-  </div>
+  <header class="site-header">
+    <h1>Ralali Bootcamp</h1>
+    <p>Selamat datang di Ralali Bootcamp, silakan cari sesuatu pada form di bawah ini.</p>
+    <form class="search-bar">
+      <input type="text" name="keyword">
+      <button type="submit">Cari</button>
+    </form>
+  </header>
+
   @yield('content')
 </body>
 </html>
