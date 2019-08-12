@@ -1,15 +1,13 @@
 @extends('head')
 <h1>Hello World!</h1>
 <p>Hello, selamat pagi, selamat datang, hehehe.</p>
+@extends('head')
+<h1>Hello World!</h1>
+<p>Hello, selamat pagi, selamat datang, hehehe.</p>
 @extends('body')
 <h1>Hello World!</h1>
 <p>Hello, selamat pagi, selamat datang, hehehe.</p>
 @section('footer')
-coba lg deh
+<h1>Hello World!</h1>
+<p>Hello, selamat pagi, selamat datang, hehehe.</p>
 @endsection
-t
-t
-g
-y
-y
-a
