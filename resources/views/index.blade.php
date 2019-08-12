@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+@extends('head')
+@extends('body')
+@section('footer')
+coba lg deh
+@endsection
+=======
 <!doctype html>
 <html lang="{{ app()->getLocale() }}">
 <head>
@@ -32,3 +39,4 @@
 	@endsection
 </body>
 </html>
+>>>>>>> bba8dec16bbbd9c4a60ed30284000c022c231547
