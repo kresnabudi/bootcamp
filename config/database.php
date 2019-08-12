@@ -41,11 +41,11 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => constant('DB_HOST', '127.0.0.1'),
-            'port' => constant('DB_PORT', '3306'),
-            'database' => constant('DB_DATABASE', 'forge'),
-            'username' => constant('DB_USERNAME', 'forge'),
-            'password' => constant('DB_PASSWORD', ''),
+            'host' => constant('DB_HOST'),
+            'port' => constant('DB_PORT'),
+            'database' => constant('DB_DATABASE'),
+            'username' => constant('DB_USERNAME'),
+            'password' => constant('DB_PASSWORD'),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
