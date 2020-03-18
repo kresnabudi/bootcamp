@@ -13,3 +13,6 @@
 
 
 Route::get('/','DataController@index')->name('data.all');
+
+//Add new route 
+Route::get('/','DataController@index2');
