@@ -1,5 +1,8 @@
 
   	@extends('header')
+    <p>
+      Tambahan baru ceritanya
+    </p>
   	@yield('content')
     @section('footer')
     <h1>Hello World!</h1>
