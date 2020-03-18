@@ -24,6 +24,9 @@
       <button type="submit">Cari</button>
     </form>
   </header>
+  <p>
+    Tambahan baru ceritanya
+  </p>
 
   	@extends('body')
   	@yield('content')
